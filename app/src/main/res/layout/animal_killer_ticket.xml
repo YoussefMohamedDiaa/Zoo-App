@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@color/grey"
+              android:layout_height="wrap_content" android:padding="5pt">
+
+    <LinearLayout
+            android:background="@drawable/background_killer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="50pt"
+                android:layout_height="50pt" app:srcCompat="@drawable/baboon" android:id="@+id/imageViewName"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Baboon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textViewName" android:textSize="24sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:text="Baboon lives in India"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/tvDes"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
